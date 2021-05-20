@@ -88,7 +88,7 @@ Negative
 : Do note that if you define a custom service for the Producer, it will create an entry point (i.e. start a new PurePath), thus creating another service. If your entry point is a method that is not linked up with the rest of the other business logic in the Producer code, you will ***not*** be able to have a complete **Service Flow**.
 
 ### a. Define a Custom Java Service
-For our sample application, the entry point is in the **class** Class and the **init** method.
+For our sample application, the entry point is in the **class** Class and the **init** method. Reference documentation: [Define custom services](https://www.dynatrace.com/support/help/how-to-use-dynatrace/transactions-and-services/custom-services/)
 
 ### b. Explore the PurePaths
 - Go to Transactions & Service
