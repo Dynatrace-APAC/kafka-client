@@ -1,4 +1,4 @@
-# Monitoring Kafka with Dynatrace
+# Kafka observability with Dynatrace
 <!-- ------------------------ -->
 ## Introduction
 
