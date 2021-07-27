@@ -2,7 +2,7 @@
 <!-- ------------------------ -->
 ## Introduction
 
-Apache Kafka is an open-source, distributed publish-subscribe message bus designed to be fast, scalable, and durable. Dynatrace has out-of-the-box support for Kafka process monitoring. [Read blog post] (https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring)
+Apache Kafka is an open-source, distributed publish-subscribe message bus designed to be fast, scalable, and durable. Dynatrace has out-of-the-box support for Kafka process monitoring. [Read blog post](https://www.dynatrace.com/news/blog/introducing-kafka-process-monitoring)
 
 In addition, leveraging on the power of Dynatrace's PurePath technology, we can further provide tracing capabilities within your application code.
 
