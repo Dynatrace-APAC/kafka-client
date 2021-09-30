@@ -79,4 +79,4 @@ docker run -d --rm --network="trace" --name kafkaproducer mykafka com.dynatrace.
 docker run -d --rm --network="trace" --name kafkaconsumer mykafka com.dynatrace.kafka.KafkaConsumerExample
 
 #Cleaning builder image
-#docker rmi "$(docker images -q -f 'label=autodelete=true')"
+docker rmi "$(docker images -q -f 'label=autodelete=true')"
