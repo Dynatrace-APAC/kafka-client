@@ -2,7 +2,7 @@
 # Build stage
 #
 FROM maven:3.6.0-jdk-11-slim AS build
-LABEL autodelete="true"
+#LABEL autodelete="true"
 COPY src /home/app/src
 COPY pom.xml /home/app
 RUN mvn clean package -f /home/app/pom.xml
